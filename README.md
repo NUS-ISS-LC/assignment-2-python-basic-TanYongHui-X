@@ -1,16 +1,20 @@
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=21523094)
-Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+Given an array of integers nums and an integer target (whole no), 
+return indices of the two numbers such that they add up to target.
 
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
 You can return the answer in any order.
 
 Example 1:
+2+ 7 = 9
 
 Input: nums = [2,7,11,15], target = 9
 Output: [0,1]
 Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+
 Example 2:
+2+4 = 6
 
 Input: nums = [3,2,4], target = 6
 Output: [1,2]
